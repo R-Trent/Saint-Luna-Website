@@ -1,0 +1,1143 @@
+/* html {
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+body {
+  background-color: #faac4d;
+  /* margin-bottom:50px; */
+  text-rendering: optimizeLegibility;
+  /* width: 100%; */
+  height: 100%;
+  min-height: 100vh; /* helps with the sticky footer */
+  min-width: 300px;
+}
+
+img {
+  image-rendering: auto;  
+  pointer-events: none;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  /* height: 100%; */
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem !important;    /* footer height */
+  /*margin-bottom: 300px !important;*/
+}
+
+#content-wrap-index {
+  padding-bottom: 2.5rem !important;    /* footer height */
+  margin-bottom: 2.5rem !important;
+}
+
+#content-wrap-with-social-footer {
+  padding-bottom: 60px !important;    /* footer height */
+  /* margin-bottom: 100px !important; */
+  /* height: 100%; */
+}
+
+#content-wrap-contact-page {
+  padding-bottom: 10px;    /* footer height */
+  margin-bottom: 50px !important;
+}
+
+.indexColor {
+  /*background-color: #faac4d;*/
+  /*background-color: #0f79a6;*/
+  background-color: #cecad3;
+  background-color: #1B749C;   /*Katz's Garage*/
+}
+
+.musicColor {
+  background-color: #fbdbca;
+}
+
+.musicNav {
+  background-color: #fbdbcaa2 !important;
+}
+
+.tourColor {
+  background-color: #f18369;
+}
+
+.tourNav {
+  background-color: #f18369a2 !important;
+}
+
+.contactColor {
+  /* background-color: #fb7143; */
+  background-color: #0081a7;
+}
+
+.contactNav {
+  /* background-color: #fb7143; */
+  background-color: #0081a7a2 !important;
+}
+
+.merchColor {
+  /* background-color: #fbdbca; */
+  /* background-color: #c08c68; */
+  background-color: #00afb9;
+}
+
+.merchNav {
+  /* background-color: #fbdbca; */
+  /* background-color: #c08c68; */
+  background-color: #00afb9a2 !important;
+}
+
+.blueForegroundColor a {
+  color: #306f94 !important;
+}
+
+.socialContainer a, .socialContainerFooter a { 
+  font-size: 22px;  
+  margin: 0 5px !important; 
+  /*color: #3b353f;*/
+  color: #f64362;   /*Katz's Garage*/
+  text-decoration: none; 
+  background: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  display: inline-block;
+  display: -webkit-inline-block;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.vert_center {
+  margin: auto auto;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#stayTunedLabel {
+  /* width: 300px; */
+  display: inline;
+  text-align: center;
+  min-width: 50%;
+  max-width: 75%;
+  height: 100%;
+  margin-bottom: 25px !important;
+  font-size: 30pt !important;
+}
+
+.fab {
+  line-height: inherit;
+}
+
+#inner {
+  display: table;
+  margin: 0 auto !important;
+}
+
+#firstElement {
+  margin-left: 0px;
+}
+
+#outer {
+  width:100%;
+}
+
+.socialContainer {
+  margin-bottom: 50px !important;
+}
+
+.socialContainer, .socialContainerFooter {
+  text-align: center;
+  text-rendering: optimizeLegibility;
+
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+  animation: 1s ease 0s normal forwards 1 fadein;
+  -ms-animation: 1s ease 0s normal forwards 1 fadein;
+}
+/* 
+.socialContainerFooter {
+  position: absolute;
+  bottom: 0;
+} */
+
+.socialFooter {
+  position: absolute;
+  /* left: 50%; */
+  bottom: 10px;
+  height: 100px !important;
+  left: 0px;
+  text-align: center;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding-left: 0 !important;
+}
+
+.socialFooter div {
+  margin: auto auto !important;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.terms p, .terms h1, .terms h2, .terms li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms {
+    display: block;
+    /*padding: 50px;*/
+    /*max-width: 85%;*/
+    /*width: 75%;*/
+    margin: 0 auto;
+}
+
+.termsContainer {
+    display: inline;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.termsBody {
+    display: inline-block;
+    /*max-width: 85%;*/
+    /*text-align: center;*/
+}
+
+.legalStrings a, .legalStrings {
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: black;*/
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
+    /*text-shadow: 1px 0 0 rgb(255, 255, 255), 0 -1px 0 rgb(255, 255, 255), 0 1px 0 rgb(255, 255, 255), -1px 0 0 rgb(255, 255, 255);*/
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.legalFooterContainer {
+    text-align: center;
+}
+
+.footer {
+  position: absolute !important;
+  bottom: 10px !important;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-top: 10px !important;
+  /*width: 100%;*/
+  /*height: 2.5rem;*/
+  /* height: 10rem; */
+}
+
+#moonGraphic {
+  max-width: 66% !important;
+  /*width: 25% !important;*/
+  /*height: 25% !important;*/
+}
+
+.stickyTitleHeader {
+  position: sticky;
+  background-color: #1B749Ca2;   /*Katz's Garage*/
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+}
+
+.titleHeader {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 0;
+  color: white;
+  font-size: 45pt;
+  text-align: center;
+}
+
+.merchGif {s
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.horizontalContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+iframe {
+    display: block;
+    border-style: none;
+}
+
+/*.indexStackView {*/
+/*  display: block;*/
+/*}*/
+
+.horizontalContainer {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.horizontalContainer #spotifyTrack {
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  overflow: hidden;
+  border: 2px solid white;
+  box-shadow: 0px 0px 1.5px 1.5px rgba(0, 0, 0, 0.25);
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+
+.titleHeader a {
+  color: white;
+  font-size: 45pt;
+  font-family: 'Chicle';
+  letter-spacing: .5px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+#albumLabel {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+#albumLabel a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 35pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  min-width: 350px;
+}
+
+#albumLabelDescription {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+#albumLabelDescription a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 20pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#buttonSpan, #buttonSpan a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  display: flex;
+  font-size: 25pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#button {
+  background-color: #f64362;   /*Katz's Garage*/
+  border: 2px solid white;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  width: 200px;
+  letter-spacing: 0.05rem; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#button:hover, #button a:hover{
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+
+
+
+#mainFooter {
+  position:absolute !important;
+  padding-bottom: 10px;
+  /*max-height:350px !important;*/
+  width: 100%;
+  bottom:0 !important;
+  left:0 !important;
+  pointer-events: none;
+  height: 2.5rem;
+  /* display: inline; */
+  transition: .3s;
+
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+  -ms-animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+.albumArtHomePage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  max-width: 500px;
+  width: 45%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+  border: 2px solid white;
+
+  -webkit-animation: fadein s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein s; /* Firefox < 16 */
+  -ms-animation: fadein s; /* Internet Explorer */
+  -o-animation: fadein s; /* Opera < 12.1 */
+  animation: fadein s;
+}
+
+.albumCoverCollection {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: auto; */
+  /* margin: 0 50px !important; */
+  /* margin-right: auto; */
+  text-align:center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  margin-bottom: 100px !important;
+}
+
+.albumCoverContainer {
+  display: block;
+  max-width: 80%;
+  width: 75%;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px !important;
+}
+
+.descriptionFontSize a {
+  font-size: 14pt !important;
+}
+
+.albumLabelMusic a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 20pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  min-width: 350px;
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.albumArt_Label_Stack {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.albumArtMusicPage {
+  display:inline-block;
+  text-align:center;
+  margin-top: 75px;
+  /* margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto; */
+  margin: 75px 25px auto;
+  padding-top: 0px;
+  /* max-width: 500px; */
+  width: 200px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+  border: 1px solid white;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+
+/* Contact Form Styling */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+#name {
+  margin-right: auto !important;
+}
+
+#email {
+  margin-left: auto !important;
+}
+
+
+#name, #email {
+  width: 48.5% !important; /* Half-width */
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  /* display: inline-block; */
+  /* padding-right: 20px !important; */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50 !important;
+  width: 100%;
+  /* color: white; */
+  padding: 12px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+  /* font-size: 10pt; */
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  font-size: large;
+}
+
+input {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+input[type=text] {
+  background-color: none !important;
+}
+
+input::placeholder, textarea::placeholder, input, textarea, label{
+  font-family: 'Chicle' !important;
+  letter-spacing: 1px; 
+  font-size: large !important;
+}
+
+input[type=submit]:hover {
+  /* background-color: #45a049 !important; */
+  background-color: #306f94 !important;
+}
+
+/* Add a background color and some padding around the form */
+.contactFormContainer {
+  max-width: 85%;
+  border-radius: 10px;
+  background-color: #f2f2f2 !important;
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+  
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+  animation: 1s ease 0s normal forwards 1 fadein;
+  -ms-animation: 1s ease 0s normal forwards 1 fadein;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Rounded border divider */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+  justify-content: space-between;
+}
+
+/* Navigation Bar Style */
+
+#navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Chicle';
+  letter-spacing: 2px; 
+  font-size: 20pt;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navigationBarItem {
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.navigationBarItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none !important;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-decoration: none !important;
+}
+
+.navigationBarItem:hover {
+  border: 1px solid white;
+  color: white !important;
+  text-decoration: none !important;
+
+}
+
+/* Adds underline to current page in navigation bar */
+.navigationBarItem .active {
+  text-decoration: underline !important;
+  text-underline-position: under !important;
+}
+
+/* End of navBar styling */
+
+/*  Merch page styling  */
+.merchItemSlideshowContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 400px;
+}
+
+.merchItemSlideshowItem {
+  width: 250px;
+  height: 250px;
+  /* border-radius: 10px !important; */
+  display:inline-block;
+  margin-bottom: 50px;
+}
+
+.merchItemLabelStack {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.merchItemLabelStack a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 20pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  min-width: 350px;
+}
+
+.merchItemLabelDescription {
+  font-size: 14pt !important;
+}
+
+.merchItemLabelBiggerDescription {
+  font-size: 17pt !important;
+}
+
+
+.roundedStyle {
+  border-radius: 6px !important;
+}
+
+.transparentBlack {
+  background-color: rgba(0, 0, 0, 0.445) !important;
+  color: white !important;
+}
+
+.bottomPictureContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+#merchButtonSpan, #merchButtonSpan a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  display: flex;
+  font-size: 25pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#merchButton {
+  background-color: #306f94;
+  border: 2px solid white;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  width: 200px;
+  letter-spacing: 0.05rem; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+  transition: .3s;
+
+}
+
+
+#merchButton:hover, #merchButton a:hover{
+  /* text-decoration-color: white;
+  text-decoration: underline; */
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.merchImg {
+  pointer-events: auto !important;
+}
+
+
+.chicle {
+  font-family: 'Chicle';
+}
+
+.quantityInput {
+  width: 50px !important;
+  margin-right: 0px !important;
+}
+
+.priceBox {
+  width: 100px !important;
+  margin-right: 0px !important;
+}
+
+label {
+  margin-top: 6px !important; /* Add a top margin */
+  margin-bottom: 6px !important; /* Bottom margin */
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  letter-spacing: auto !important;
+}
+
+.blueBackgroundColor {
+  background-color: #306f94 !important;
+}
+
+.lightBlueBGColor {
+  background-color: #00afb9 !important;
+  color:white !important; 
+}
+
+.purpleBGColor {
+  background-color: #0081a7 !important;
+  color:white !important; 
+}
+
+.merchFormRow {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+}
+
+.merchFormRow > * {
+  margin: 25px;
+}
+
+.merchFormRow > select {
+  margin-right: 0px !important;
+  max-width: 350px;
+}
+
+.merchFormRow > select {
+  font-size: 10pt !important;
+}
+
+.merchFormRow > label {
+  width: 100px !important;
+  min-width: 150px;
+  align-content: center;
+}
+
+.merchFormContainer {
+  max-width: 95%;
+  border-radius: 10px;
+  background-color: #f2f2f2 !important;
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 25px !important;
+  margin-top: 0px !important;
+}
+
+#merchFormThirds {
+  width: 31.5% !important; /* Half-width */
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  /* display: inline-block; */
+  /* padding-right: 20px !important; */
+}
+
+.merch-notice {
+  font-size: 25pt;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 50pt;
+  height:200px;
+  
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.merch-notice p {
+  font-size: 25pt;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 50pt;
+}
+
+
+/*  End of merch Page   */
+
+
+
+/*  Start of Shows Page */
+@media screen and (max-width: 600px) {
+
+  .showsListItem {
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
+
+  .showsList_TicketButton {
+    text-align: center;
+    display: block;
+    font-size: 20pt;
+    padding: 10px 10px !important;
+    max-width: 200px !important;
+    margin-top: 10px !important;
+  }
+
+  .showsList_Venue {
+    padding: 10px 10px !important;
+    margin: 0 10px !important;
+  }
+
+  .showsList_Date {
+    max-width: 235px !important;
+    padding: 10px 10px !important;
+  }
+
+  .left{
+    clear: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  #ticketButton {
+    width: 200px !important;
+  }
+
+}
+
+.shows-notice {
+  font-size: 25pt;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 50pt;
+  height:200px;
+  
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.shows-notice p {
+  font-size: 25pt;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 50pt;
+}
+
+.showsOuterContainer {
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.showsContainer {
+  width: 75%;
+  max-width: 750px;
+  /* background-color: blue; */
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: stretch;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  min-width: 350px;
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.showsListItem {
+  /* background-color: blue; */
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 66px;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.showsListItem a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 20pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  /* min-width: 350px; */
+}
+
+.showsList_Date {
+  display: block;
+  font-size: 20pt;
+  max-width: 185px;
+  padding: 0 10px;
+}
+.showsList_Venue {
+  display: block;
+  font-size: 20pt;
+  padding: 0 10px;
+  flex-grow: 2;
+}
+.showsList_TicketButton {
+  text-align: center;
+  display: block;
+  font-size: 20pt;
+  padding: 0 10px;
+  max-width: 150px;
+}
+
+#ticketButton {
+  background-color: #306f94;
+  /* color: #306f94 !important; */
+  border: 2px solid white;
+  color: #FFFFFF;
+  padding: 10px 20px !important;
+  width: 125px !important;
+  letter-spacing: 0.05rem; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.location {
+  font-weight: 300;
+  font-size: 16.5pt;
+}
+
+.left{
+    float:left;
+    clear: left;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted white;
+  width: 75%;
+  max-width: 750px;
+}
+
+#invitationLabel {
+  margin: 30px auto;
+  text-align: center;
+  
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+#invitationLabel a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Chicle';
+  letter-spacing: 0.05rem; 
+  font-size: 30pt;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  min-width: 350px;
+}
+
+/*  End of Shows Page   */
+
+
+/* Animations */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@font-face{ 
+	font-family: 'Chicle';
+	src: url('../Fonts/chicle/Chicle-Regular.ttf');
+}
